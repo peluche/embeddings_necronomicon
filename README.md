@@ -4,10 +4,10 @@ This is meant as a small experiment to get my hands dirty with word embeddings.
 
 The original idea was to try to reproduce the word arithmetic examples from Google's Word2Vec demo: `King - Man + Woman = Queen` and `Paris - France + Italy = Rome`.
 
-(Spoiler alert) but it turned out to be more of an experiment on how to create/handle/visualize word embeddings. Even using `Gensim.word2vec` with the google-news pre-trained weights or Bert embeddings from `huggingface` I couldn't get to the same results as the original demo.
+(Spoiler alert) but it turned out to be more of an experiment on how to create/handle/visualize word embeddings. Even using `Gensim.word2vec` with the google-news pre-trained weights or `Bert` embeddings from huggingface I couldn't get to the same results as the original demo.
 
 
-## Word2Vec wanabe
+## Word2Vec hatchling
 For the manual attempt in `embeddings_necronomicon.ipynb` the rough outline is:
 - find a small enough dataset of english sentences on huggingface
 - train next word prediction using a code very similar to Karpathy's Makemore
